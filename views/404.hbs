@@ -1,0 +1,52 @@
+ <!-- Start single page header -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+            {{#if error404}}
+              <h2>404 Error - Not Found</h2>
+              <p>Hmm, Either Something Went Wrong, Or absolutely Right</p>
+            {{else}}
+                <h2>Error - Somthing Went Wrong</h2>
+                <p>We Are Right On, It</p>
+            {{/if}}
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <!--ol class="breadcrumb">
+                <li><a href="/index">Home</a></li>
+                <li class="active">404 - Not Found</li>
+              </ol-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End single page header -->
+  <!-- Start error section  -->
+  <section id="error">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="errror-page-area">
+            <h1 class="error-title"><span class="fa fa-bug"></span></h1>
+            <div class="error-content">
+              <span>Opps!</span>
+              {{#if error404}}
+              <p>We're sorry, but the page you were looking for doesn't exist.</p>
+            {{else}}
+                <p>Try doing whatever you are doing again, or go back to Home Page</p>
+            {{/if}}
+              
+              <a class="error-home" href="/index">Home Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End error section  -->

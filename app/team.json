@@ -1,0 +1,212 @@
+{
+"last_updated":"2016-01-20 17:56:45",
+"founder":{
+        "name":"Anupam",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+        }
+},
+
+"cofounders" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi1.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi2.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+"board" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+
+"team" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+"partners" : {
+
+"category-1" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+
+"category-2" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+"category-3" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+],
+
+"category-4" : [
+        {
+        "name":"Raghav",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        },
+        {
+        "name":"Bala",
+        "image":"/assets/images/testi3.jpg",
+        "about_short" : "balablabnlbalbal",
+        "about":"blaklaklakkkkkkkkkkkkksjs jssjjs jsjjskjjhkhska hjghsjtqhsfjhs ",
+        "social": {
+                "google" : "https://plus.google.com/u/0/116606864799537285801",
+                "facebook" : "https://plus.google.com/u/0/116606864799537285801",
+                "twitter": "https://plus.google.com/u/0/116606864799537285801",
+                "linkedin" : "https://plus.google.com/u/0/116606864799537285801"
+                }
+        }
+]
+
+}
+
+
+}

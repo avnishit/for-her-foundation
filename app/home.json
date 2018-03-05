@@ -1,0 +1,103 @@
+{
+"last_updated":"2016-01-07 23:16:15",
+"slider":[
+    {
+    	"img":"http://52.11.116.39/assets/images/slider-3.jpg", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"desc":"Creation of an environment for women where they can make decisions of their own for their personal benefits as well as for the society",
+    	"link":"#"
+    },
+    {
+    	"img":"http://52.11.116.39/assets/images/slider-1.jpg", 
+    	"title":"Sanitary Pads Keeps Girls in Schools", 
+    	"desc":"Our Pad Distribution Project has three main initiatives: keeping girls in school, informed about their sexual health, and economically independent",
+    	"link":"#"
+    },
+    {
+    	"img":"http://52.11.116.39/assets/images/slider-2.jpg", 
+    	"title":"Smiles and Determination of rural Indian Women", 
+    	"desc":"Poor, rural women in the central Indian state of Madhya Pradesh attending a skills training programme on dairy farming by the NGO",
+    	"link":"#"
+    }
+],
+"upc_events":[
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    }
+],
+"cmp_events":[
+  {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    },
+    {
+    	"icon_type":"glyphicon glyphicon-leaf", 
+    	"title":"Women Empowerment: Its Meaning and Importance", 
+    	"link":"#"
+    }
+],
+"stats":{
+	"vilalges" : 1245,
+	"events"   : 5645,
+	"volunteers" : 234,
+	"donors"   : 654
+},
+"volunteer_engage" : [
+	{
+		"icon_type":"fa fa-hand-paper-o",
+		"title":"Give us a Hand", 
+		"desc":"Join as a Volunteer , Participate in Various Social Activities", 
+		"link":"#"
+	},
+	{
+		"icon_type":"fa fa-money",
+		"title":"Donate", 
+		"desc":"Your Donations will help keep girls in school and away from diseases & keep track of donations as well", 
+		"link":"#"
+	},
+	{
+		"icon_type":"fa fa-share-square",
+		"title":"Spraed the word", 
+		"desc":"Folow us on sovcial Platforms, Share , Subscribe", 
+		"link":"#"
+	}
+],
+"social_links" : {
+	"fb":"https://www.facebook.com/ForHerFoundation",
+	"yt":"#",
+	"tw":"https://twitter.com/forHerFdation",
+	"ln":"#",
+	"pt":"#",
+	"gp":"#"
+}
+}
+
+

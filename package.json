@@ -1,0 +1,29 @@
+{
+  "name": "fh01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "client-sessions": "^0.7.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "express-redirect": "^1.2.2",
+    "express-session": "^1.13.0",
+    "express-sessions": "^1.0.5",
+    "kerberos": "0.0.17",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.0.0",
+    "passport-google-oauth": "^0.2.0",
+    "passport-local": "^1.0.0"
+  }
+}

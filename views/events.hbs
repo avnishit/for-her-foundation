@@ -1,0 +1,394 @@
+  <!-- Start single page header -->
+  <section id="single-page-header-blog">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="single-page-header-left text-center">
+              <h2>Events</h2>
+              <p>Our efforts for HER</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <!--ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Blog Archive</li>
+              </ol-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End single page header -->
+
+<div class="container">
+  <div class="row row-centered">
+  <div class="col-md-6 col-centered">
+                     <h3>Upcoming Events</h3>
+                 <div class="col-md-12">
+                   <div class="update-nag">
+                     <div class="update-split update-success"><i class="glyphicon glyphicon-leaf"></i></div>
+                     <div class="update-text">Education Drive & Pad Distribution At <a href="#"> Rohtak Villages</a> </div>
+                   </div>
+                 </div>
+
+                 <div class="col-md-12">
+                   <div class="update-nag">
+                     <div class="update-split update-danger"><i class="glyphicon glyphicon-road"></i></div>
+                     <div class="update-text">Awareness Drive with <strong>Wahida Rahman</strong> in Baxar, Bihar </div>
+                   </div>
+                 </div>
+
+                 <div class="col-md-12">
+                   <div class="update-nag">
+                     <div class="update-split update-success"><i class="glyphicon glyphicon-leaf"></i></div>
+                     <div class="update-text">Education Drive & Pad Distribution At <a href="#"> Rohtak Villages</a> </div>
+                   </div>
+                 </div>
+
+                 <div class="col-md-12">
+                   <div class="update-nag">
+                     <div class="update-split update-danger"><i class="glyphicon glyphicon-warning-sign"></i></div>
+                     <div class="update-text">Awareness Drive with <strong>Wahida Rahman</strong> in Baxar, Bihar </div>
+                   </div>
+                 </div>
+             </div>
+   <div class="col-md-6 col-centered">
+       <h3>Latest Events</h3>
+   <div class="col-md-12">
+     <div class="update-nag">
+       <div class="update-split"><i class="   glyphicon glyphicon-flag"></i></div>
+       <div class="update-text">Education Drive & Pad Distribution At <a href="#"> Rohtak Villages</a> </div>
+     </div>
+   </div>
+
+   <div class="col-md-12">
+     <div class="update-nag">
+       <div class="update-split update-info"><i class="   glyphicon glyphicon-heart"></i></div>
+       <div class="update-text"><a href="#">Donate for HER</a> Drive at Sagar, MH </div>
+     </div>
+   </div>
+
+   <div class="col-md-12">
+     <div class="update-nag">
+       <div class="update-split update-success"><i class="glyphicon glyphicon-road"></i></div>
+       <div class="update-text">Education Drive & Pad Distribution At <a href="#"> Rohtak Villages</a> </div>
+     </div>
+   </div>
+
+   <div class="col-md-12">
+     <div class="update-nag">
+       <div class="update-split update-danger"><i class="glyphicon glyphicon-road"></i></div>
+       <div class="update-text">Awareness Drive with <strong>Wahida Rahman</strong> in Baxar, Bihar </div>
+     </div>
+ </div>
+ </div>
+ </div>
+</div>
+  <section id="pinBoot">
+<div class="row">
+
+{{#unless posts.[0]}}
+<div class="row"><div class="col-md-12 text-center">
+<h4>No More Events</h4>
+</div>
+{{/unless}}
+
+
+{{#if posts.[0]}}
+  <div class="col-md-3 col-xs-12 col-sm-6"> <!-- left column -->
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.0.images.featured}}" alt="">
+          <h4><a href="#">{{posts.0.title}}</a></h4>
+        <p><small>{{posts.0.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.0._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.0.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.0.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{#if posts.[4]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.4.images.featured}}" alt="">
+          <h4><a href="#">{{posts.4.title}}</a></h4>
+        <p><small>{{posts.4.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.4._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.4.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.4.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{/if}}
+      {{#if posts.[8]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.8.images.featured}}" alt="">
+          <h4><a href="#">{{posts.8.title}}</a></h4>
+        <p><small>{{posts.8.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.8._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.8.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.8.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div>
+      {{/if}}
+   </div>
+{{/if}}
+
+{{#if posts.[1]}}
+  <div class="col-md-3 col-xs-12 col-sm-6"> <!-- left column -->
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.1.images.featured}}" alt="">
+          <h4><a href="#">{{posts.1.title}}</a></h4>
+        <p><small>{{posts.1.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.1._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.1.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.1.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{#if posts.[5]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.5.images.featured}}" alt="">
+          <h4><a href="#">{{posts.5.title}}</a></h4>
+        <p><small>{{posts.5.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.5._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.5.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.5.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{/if}}
+      {{#if posts.[9]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.9.images.featured}}" alt="">
+          <h4><a href="#">{{posts.9.title}}</a></h4>
+        <p><small>{{posts.9.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.9._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.9.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.9.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div>
+      {{/if}}
+   </div>
+{{/if}}
+
+{{#if posts.[2]}}
+  <div class="col-md-3 col-xs-12 col-sm-6"> <!-- left column -->
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.2.images.featured}}" alt="">
+          <h4><a href="#">{{posts.2.title}}</a></h4>
+        <p><small>{{posts.2.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.2._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.2.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.2.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{#if posts.[6]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.6.images.featured}}" alt="">
+          <h4><a href="#">{{posts.6.title}}</a></h4>
+        <p><small>{{posts.6.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.6._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.6.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.6.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{/if}}
+      {{#if posts.[10]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.10.images.featured}}" alt="">
+          <h4><a href="#">{{posts.10.title}}</a></h4>
+        <p><small>{{posts.10.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.10._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.10.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.10.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div>
+      {{/if}}
+   </div>
+{{/if}}
+
+{{#if posts.[3]}}
+  <div class="col-md-3 col-xs-12 col-sm-6"> <!-- left column -->
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.3.images.featured}}" alt="">
+          <h4><a href="#">{{posts.3.title}}</a></h4>
+        <p><small>{{posts.3.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.3._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.3.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.3.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{#if posts.[7]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.7.images.featured}}" alt="">
+          <h4><a href="#">{{posts.7.title}}</a></h4>
+        <p><small>{{posts.7.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.7._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.7.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.7.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div><br>
+      {{/if}}
+      {{#if posts.[11]}}
+      <div class="row"><div class="col-md-12">
+        <article class="white-panel blogpage"><img src="{{posts.11.images.featured}}" alt="">
+          <h4><a href="#">{{posts.11.title}}</a></h4>
+        <p><small>{{posts.11.summary}}</small></p>
+          <div class="more">
+							<a href="/events/posts/{{posts.11._id}}">
+								Read More <i class="fa fa-angle-double-right"></i>
+							</a>
+						</div>
+          <div class="row">
+          <div class="blogpage-author text-left col-md-6">
+                        <b>At, {{posts.11.location}}</b>
+          </div>
+          <div class="blogpage-author text-right col-md-6">
+                        <b>On <time>{{posts.11.start_date}}</time></b>
+        </div>
+      </div>
+         </article>
+      </div>
+      </div>
+      {{/if}}
+   </div>
+{{/if}}
+</div>
+
+  <div class="row md-12 blog-pagination">
+    <ul class="pagination-nav">
+    {{#if prevnum}}
+      <li><a href="/events/{{prevnum}}">Previous</a></li>
+    {{/if}}
+    {{#if posts.[0]}}
+      <li><a href="/events/{{nextnum}}">Next</a></li>
+    {{/if}}
+      <!--li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li-->
+    </ul>
+  </div>
+
+  </section>

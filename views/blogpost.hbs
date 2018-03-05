@@ -1,0 +1,112 @@
+  <!-- Start single page header -->
+  <section id="single-page-header-blogpost" style="background-image:url('{{post.images.featured}}');">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="single-page-header-left text-center">
+              <h2>{{post.title}}</h2>
+              <p>By {{post.author.name}} , On {{post.created_at}}</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <!--ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Blog Archive</li>
+              </ol-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End single page header -->
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="blog-archive-area">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="blog-archive-left">
+                  <!-- Start blog news single -->
+                  <article class="blogpost">
+              {{{post.body}}}
+                      <div class="blog-single-bottom">
+                        <div class="row">
+                          <div class="col-md-8">
+                            <div class="blog-single-tag">
+                              <span class="fa fa-tags"></span>
+                              {{#each post.tags}}
+                              <a href="#">{{this}} </a>
+                              {{/each}}
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="blog-single-social">
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                              <a href="#"><i class="fa fa-google-plus"></i></a>
+                              <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </article>
+                  <!-- Start blog navigation -->
+                  <!--div class="blog-navigation-area">
+                    <div class="blog-navigation-prev">
+                      <a href="#">
+                        <h5>All about writing story</h5>
+                        <span>Previous Post</span>
+                      </a>
+                    </div>
+                    <div class="blog-navigation-next">
+                      <a href="#">
+                        <h5>All about friends story</h5>
+                        <span>Next Post</span>
+                      </a>
+                    </div>
+                  </div-->
+                  <!-- Start Comment box -->
+                  <div class="comments-box-area">
+                    <h2>Comments</h2><br>
+                  </div>
+                   <div class="blogpost">
+                   {{#each post.comments}}
+                       <div class="comment_media">
+                         <p>{{this.body}}</p>
+                         <h6>{{this.user}}, {{this.date}}</h6>
+                        </div>
+                        {{/each}}
+                   </div>
+                   <!-- Comment submission-->
+                  <div class="comments-box-area">
+                    <h2>Leave a Comment</h2>
+                    <p>Your email address will not be published.</p>
+                    <form action="/blog/comments/{{post._id}}" method="post" class="comments-form">
+                       <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                      </div>
+                       <div class="form-group">
+                        <textarea placeholder="Comment" rows="3" class="form-control" name="body" required></textarea>
+                      </div>
+                      <button class="comment-btn" type="submit">Submit Comment</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End blog archive -->
